@@ -1,4 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["ye\/lf"]); }
-
-__d('RequestsJewel',['RequestsJewelController'],(function a(b,c,d,e,f,g){function h(i,j){'use strict';var k=c('RequestsJewelController').create(i.getFlyout(),function(){return i.isOpen()},j.inbox_folder);i.subscribe('marked-seen',function(){return k.markSeen()});i.subscribe('closed',function(){return k.closeHandler()});i.subscribe('opened',function(){return k.openHandler()})}f.exports=h}),null);
-__d('UFIScrollHighlight',['CSS','ScrollableArea','ScrollHighlight','highlight'],(function a(b,c,d,e,f,g){'use strict';var h='#edeff4',i='#f6f7f9',j='highlightComment',k={actOn:function l(m,n){c('ScrollHighlight').actOn(m,h,n);c('CSS').removeClass(m,j)},actOnSnowliftElem:function l(m,n){var o=c('ScrollableArea').getInstance(m);if(o){o.setScrollTop(m.offsetTop+(n?n:0));c('highlight')(m,null,i);c('CSS').removeClass(m,j)}else k.actOn(m,n);}};f.exports=k}),null);
