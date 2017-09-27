@@ -1,0 +1,99 @@
+body {
+  text-align: center;
+  background-image: url('./images/luca-zanon-26595.jpg');
+  font-family:'Encode Sans Semi Expanded', sans-serif;
+  color: #284448;
+}
+
+h1, h2, h3 {
+  font-family: 'Cinzel', serif;
+  color: #284448;
+  margin: 10px;
+}
+
+/*h1 {
+  margin: 10px;
+}*/
+
+a {
+  text-decoration: none;
+  color: #284448;
+  align-content: center;
+}
+
+a:hover {
+  color: navy;
+}
+
+p {
+/*  font-size: 20px;*/
+}
+
+#top-profile {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid teal;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 50px 250px;
+  border-radius: 50px;
+}
+
+/*#top-profile:hover {
+  opacity: 1;
+}*/
+
+#image-profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#footer-about {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid teal;
+  background: #79BCB8;
+  margin: 50px 250px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/*#footer-about:hover {
+  opacity: 1;
+}*/
+
+.container {
+  text-align: center;
+  padding: 30px;
+  border: 2px solid teal;
+  background: #79BCB8;
+  margin: 50px 250px;
+  border-radius: 80px;
+  box-shadow: 2px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/*.container:hover {
+  opacity: 1;
+}*/
+
+img {
+  width: 250px;
+  padding: 50px;
+  border-radius: 60px;
+}
+
+li {
+  display: inline-block;
+  padding: 20px;
+  font-size: 30px;
+}
+
+/*.fade
+{
+        opacity:0.5;
+}
+.fade:hover
+{
+        opacity:1;
+}*/

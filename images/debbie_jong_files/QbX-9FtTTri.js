@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["J+mAO"]); }
+
+__d("XGroupsMemberConnectionsIntentLoggingController",["XController"],(function a(b,c,d,e,f,g){f.exports=c("XController").create("\/groups\/member_connections\/log_intent\/",{member_id:{type:"Int"},group_id:{type:"Int"},intent_type:{type:"Enum",enumType:1}})}),null);
+__d('GroupsMemberConnectionsLogger',['AsyncRequest','Event','XGroupsMemberConnectionsIntentLoggingController'],(function a(b,c,d,e,f,g){'use strict';var h={logIntentOnJavaScriptEvent:function i(j,k,l,m,n){c('Event').listen(j,k,function(){h.logIntent(l,m,n)})},logIntent:function i(j,k,l){var m=c('XGroupsMemberConnectionsIntentLoggingController').getURIBuilder().setInt('member_id',k).setInt('group_id',j).setEnum('intent_type',l).getURI();new (c('AsyncRequest'))(m).send()}};f.exports=h}),null);
